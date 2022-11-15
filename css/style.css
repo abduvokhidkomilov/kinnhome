@@ -54,10 +54,11 @@ ol,ul {
     margin-bottom: 2rem;
 }
 .site-header .container {
-    height: 7.2rem;
+    height: 8rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 .site-nav {
 }
@@ -66,7 +67,6 @@ ol,ul {
 }
 .site-item {
     display: flex;
-    margin-right: 10rem;
     margin-right: 6.3rem;
     flex-direction: row;
 }
@@ -77,15 +77,14 @@ ol,ul {
 .sitep-link {
     font-size: 1.6rem;
     line-height: 2.3rem;
-    letter-spacing: 1.575px;
     text-transform: uppercase;
     color: #56593D;
 
 }
 
 .site-logo {
-    margin-left: 9rem;
-    margin-right: 36rem;
+    margin-right: 40rem;
+    
 
 }
 
@@ -138,6 +137,14 @@ ol,ul {
     text-transform: uppercase;  
     background-color: #56593D;
     color: #FFFFEF;
+}
+.hero__link:hover {
+    background-color: blue;
+    cursor: pointer;
+    color:wheat;
+}
+.hero__link:active {
+    opacity: 0.7;
 }
 
 /* section twoo */
@@ -368,6 +375,14 @@ ol,ul {
     background-color: #56593D;
     border: none;
     
+}
+.Subscribe:hover {
+    background-color: blue;
+    cursor: pointer;
+    color:wheat;
+}
+.Subscribe:active {
+    opacity: 0.7;
 }
 /* section eight */
 .pictures {
