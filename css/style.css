@@ -81,11 +81,15 @@ ol,ul {
     color: #56593D;
 
 }
+.sitep-link:hover {
+    color: red;
+}
+.sitep-link:active {
+    opacity: 0.6;
+}
 
 .site-logo {
     margin-right: 40rem;
-    
-
 }
 
 .icons {
@@ -166,8 +170,9 @@ ol,ul {
     line-height: 7rem;
     text-align:justify;
     margin-bottom: 2.5rem;
-   
-
+}
+.ancer:hover {
+    color: red;
 }
 .t__next {
     font-size: 1.6rem;
